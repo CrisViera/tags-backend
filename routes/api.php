@@ -10,7 +10,7 @@ use App\Http\Controllers\UserController;
 /*
 Rutas públicas
 */
-
+Route::post('/users', [UserController::class, 'store']);
 /*
 Rutas protegidas con Sanctum
 */
